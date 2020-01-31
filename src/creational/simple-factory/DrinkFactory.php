@@ -6,14 +6,14 @@ namespace DesignPatterns\Creational\SimpleFactory;
 
 use DesignPatterns\Creational\SimpleFactory\MilkTea;
 
-class MilkTeaFactory
+class DrinkFactory
 {
     /**
      * Make tea
      *
      * @return MilkTea
      */
-    public function makeTea(): MilkTea
+    public function makeDrink(): MilkTea
     {
         return new MilkTea();
     }
